@@ -60,7 +60,7 @@ data:
             <h1>🎉 Hello World! 🎉</h1>
             <h2>Deployed with ArgoCD</h2>
             <p>This application was deployed using GitOps!</p>
-            <p>Version: v1.0.0</p>
+            <p>Version: v1.1.0</p>
             <p>Deployed at: $(date)</p>
         </div>
     </body>
