@@ -17,6 +17,8 @@ spec:
       containers:
       - name: hello-world
         image: nginx:1.21
+        invalidField: "this-will-cause-sync-failure"
+
         ports:
         - containerPort: 80
         volumeMounts:
